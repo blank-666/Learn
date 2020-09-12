@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XP Counter</title>
+</head>
+<body>
+        <span id="title"><h1>Dungeons & Dragons</h1>
+            <h3>XP counter</h3>
+        </span>
+        <h2 id="totalXp"></h2>
+        <input type="text" id="inputXp" placeholder="Enter your XP..." autofocus/>
+        <h3 id="experienceHistory"></h3>
+
+        <button id="divideButton"><span>Divide</span></button>
+        <label for="divider">by</label>
+        <input type="number" id="divider" value="5"><br>
+
+        <div class="clearButtons">
+            <button id="clearAll"><span>Clear all</span></button><button id="clearPrevious"><span>Clear previous</span></button>
+        </div>
+
+        <div id="modalContainer" class="modal">
+            <div class="modalContent">
+                <span class="close">&times;</span>
+                <h2 id="modalText"></h2>
+            </div>
+        </div>
+        <script src="main.js"></script>
+</body>
+</html>

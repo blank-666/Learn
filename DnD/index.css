@@ -19,7 +19,7 @@
 
 html{
     font-family: 'DungeonFontBold';
-    background:  url(./images/back12.jpg) fixed center no-repeat;
+    background:  url(./images/back12.webp) fixed center no-repeat;
     background-size: cover;
     font-size: 22px;
 }
@@ -93,9 +93,11 @@ button span {
     margin-top: 2%;
     display: none;
 }
+
 #clearAll{
     border-radius: 5px 0 0 5px;
 }
+
 #clearPrevious{
     border-radius: 0 5px 5px 0;
 }

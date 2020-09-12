@@ -11,6 +11,8 @@ const span = document.querySelector(".close");
 const modalText = document.querySelector('#modalText');
 let itemsArray = [];
 
+console.log('height:', window.innerHeight, 'width:', window.innerWidth)
+
 function showClearButtons(){
     clearButtons.style.display = (itemsArray.length > 0) ? "block" : "none";
 }

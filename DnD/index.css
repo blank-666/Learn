@@ -12,11 +12,6 @@
     font-weight: normal; 
 }
 
-@-webkit-keyframes animatetop {
-    from {top:-300px; opacity:0} 
-    to {top:0; opacity:1}
-}
-
 @keyframes animatetop {
     from {top:-300px; opacity:0}
     to {top:0; opacity:1}
@@ -29,6 +24,7 @@ html{
     font-size: 22px;
 }
 body{
+    margin-top: 10%;
     display: relative;
     min-width: 700px;
     margin-left: auto;
@@ -39,7 +35,7 @@ body{
 .modal {
     display: none;
     position: fixed;
-    padding-top: 100px;
+    padding-top: 160px;
     left: 0;
     top: 0;
     width: 100%;
@@ -56,10 +52,7 @@ body{
     background-size: cover;
     height: 200px;
     margin: auto;
-    /* width: 50%; */
     width: 700px;
-    -webkit-animation-name: animatetop;
-    -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
     animation-duration: 0.4s
 }
